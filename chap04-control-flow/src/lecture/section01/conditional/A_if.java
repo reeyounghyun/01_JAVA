@@ -23,11 +23,13 @@ public class A_if {
         int num = sc.nextInt();
 
 
+        // ((num % 2 ) == 0) : num을 2로 나눈 나머지
         if ((num % 2) == 0) {
             // 짝수 일때만 , 참일때만 실행되고, 홀수 일때는 건너 뛰거나 else가 있으면 else가 실행됨.
             System.out.println("짝수입니다.");
         }
 
+        // num을 2로 나눈 나머지가 짝수? 홀수?
         if ((num % 2) == 0) {
             // 짝수 일때만 , 참일때만 실행되고, 홀수 일때는 건너 뛰거나 else가 있으면 else가 실행됨.
             System.out.println("짝수입니다.");
