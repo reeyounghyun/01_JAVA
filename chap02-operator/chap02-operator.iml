@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/exerclse/Answer1.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/exerclse/Answer2.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/exerclse/Answer3.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/exerclse/Answer4.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/exerclse/PracticeProblem.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lecture/section01/asignment/Application.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lecture/section01/comparison/Application.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lecture/section01/incremrnt/Application.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lecture/section01/logical/Application.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lecture/section01/logical/Application2.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lecture/section01/logical/Application3.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lecture/section01/logical/Application4.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/exercise/Answer1.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/exercise/Answer2.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/exercise/Answer3.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/exercise/Answer4.java" />
+      <excludeFolder url="file://$MODULE_DIR$/src/exercise/PracticeProblem.java" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
