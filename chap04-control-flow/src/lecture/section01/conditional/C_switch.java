@@ -36,6 +36,7 @@ public class C_switch {
         );
         int op = sc.nextInt();
 
+        // switch 작성방벙1
         switch (op) {
             case 1 -> System.out.println("+ 연산 결과입니다 : " + add(num1, num2));
             case 2 -> System.out.println("- 연산 결과입니다 : " + subtract(num1, num2));
@@ -70,6 +71,7 @@ public class C_switch {
         );
         int op = sc.nextInt();
 
+        // switch 작성방벙2
         switch (op) {
             case 1:
                 System.out.println("+ 연산 결과입니다 : " + add(num1, num2));
