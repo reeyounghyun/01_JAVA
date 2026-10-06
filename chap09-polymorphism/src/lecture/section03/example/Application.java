@@ -1,4 +1,4 @@
-package lecture.section03.exercise;
+package lecture.section03.example;
 
 public class Application {
     public static void main(String[] args) {

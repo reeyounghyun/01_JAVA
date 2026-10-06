@@ -1,6 +1,6 @@
-package lecture.section01.polymorphism;
+package lecture.section02.exercise;
 
-public class Tiger extends Animal{
+public class Tiger extends Animal {
 
     // 이모지 윈도우키 + .
     @Override

@@ -1,4 +1,18 @@
 package lecture.section02.exercise;
 
-public class Beat {
+public class Bear extends Animal{
+    @Override
+    public void eat() {
+
+    }
+
+    @Override
+    public void run() {
+
+    }
+
+    @Override
+    public void cry() {
+
+    }
 }

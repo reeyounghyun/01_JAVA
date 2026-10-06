@@ -1,6 +1,6 @@
-package lecture.section01.polymorphism;
+package lecture.section02.exercise;
 
-public class Rabbit extends Animal{
+public class Rabbit extends Animal {
 
     @Override
     public void eat() {
@@ -20,4 +20,5 @@ public class Rabbit extends Animal{
     public void jump() {
         System.out.println("🐰토끼가 점프합니다..");
     }
+
 }

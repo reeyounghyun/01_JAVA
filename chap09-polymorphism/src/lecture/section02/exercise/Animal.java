@@ -1,16 +1,11 @@
-package lecture.section01.polymorphism;
+package lecture.section02.exercise;
+// 추상클래스
+public abstract class Animal {
 
-public class Animal {
+    // 추상메서드
+    public abstract void eat();
 
-    public void eat() {
-        System.out.println("동물이 먹이를 먹습니다..");
-    }
+    public abstract void run();
 
-    public void run() {
-        System.out.println("동물이 달려갑니다..");
-    }
-
-    public void cry() {
-        System.out.println("동물이 울음소리를 냅니다..");
-    }
+    public abstract void cry();
 }

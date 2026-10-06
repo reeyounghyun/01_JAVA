@@ -1,4 +1,4 @@
-package lecture.section03.exercise;
+package lecture.section03.example;
 
 /* 결제수단을 제공하는 기능
  *
