@@ -1,4 +1,4 @@
-package lecture.section1.user_type;
+package lecture.section01.user_type;
 
 import java.util.Arrays;
 

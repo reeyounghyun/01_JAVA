@@ -1,24 +1,21 @@
-package lecture.section02.encapsulation.problem1;
+package lecture.section02.encapsulation.problem2;
 
-public class Application {
+public class Application2 {
     public static void main(String[] args) {
 
-        /*캡슐화
-        * - 선언한 필드대로 공간은 생성되어있지만 직접 접근 못하고
-        * public으로 접근을 허용한 메소드만 이용 할 수 있도록 하는 것*/
         Monster monster1 = new Monster();
 
-        /*monster1.name = "두치";
+        monster1.name = "두치"; // privatre으로 선언되어 직접 접근을 할 수 없음.
+        monster1.hp = 200;
 
-        monster1.hp = 200;*/
+        Monster monster2 = new Monster();
 
-        monster1.setName("또치");
+        monster2.name = "두치"; // privatre으로 선언되어 직접 접근을 할 수 없음.
+        monster2.hp = 200;
 
-        monster1.setHp(10);
-       // monster1.hp = -200 ;
+        Monster monster3 = new Monster();
 
-      //  System.out.println("monster1.name = " + monster1.name);
-        System.out.println("monster1.name = " + monster1.getName());
-        System.out.println("monster1.hp = " + monster1.getHp());
+        monster3.name = "두치"; // privatre으로 선언되어 직접 접근을 할 수 없음.
+        monster3.hp = 200;
     }
 }

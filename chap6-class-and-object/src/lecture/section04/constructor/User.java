@@ -1,4 +1,4 @@
-package lecture.section4.constructor;
+package lecture.section04.constructor;
 
 public class User {
 
