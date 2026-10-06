@@ -1,4 +1,4 @@
-package practice.level01.basic;
+package practice.level01.basic2.basic;
 
 public class Application02 {
 
@@ -22,11 +22,11 @@ public class Application02 {
          * 강아지가 짖는다.
          * */
 
-        Animal animal = new Animal();
+ /*       Animal animal = new Animal();
         animal.makeSound();
 
         Dog dog = new Dog();
-        dog.makeSound();
+        dog.makeSound();*/
 
     }
 
