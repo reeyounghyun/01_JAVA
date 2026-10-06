@@ -1,6 +1,4 @@
-package practice.level02.normal;
-
-import java.awt.*;
+package practice.level02.normal1.normal;
 
 public class Application02 {
 
@@ -28,11 +26,13 @@ public class Application02 {
          * 원의 면적: 78.54
          * 사각형의 면적: 200.0
          * */
+/*
         Shape circle = new Circle(5.0);
         System.out.println("원의 면적: " + circle.calculateArea());
 
         Shape rectangle = new Rectangle(10.0, 20.0);
         System.out.println("사각형의 면적: " + rectangle.calculateArea());
+*/
 
     }
 

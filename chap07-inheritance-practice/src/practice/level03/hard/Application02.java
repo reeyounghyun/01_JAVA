@@ -25,7 +25,7 @@ public class Application02 {
          * 개발자가 코딩을 시작합니다.
          * 디자이너가 디자인을 시작합니다.
          * */
-
+/*
         Worker[] workers = new Worker[2];
         workers[0] = new Developer();
         workers[1] = new Designer();
@@ -33,7 +33,7 @@ public class Application02 {
         // 향상된 for문
         for (Worker worker : workers) {
             worker.work();
-        }
+        }*/
 
     }
 

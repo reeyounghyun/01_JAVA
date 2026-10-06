@@ -23,14 +23,14 @@ public class Application01 {
          * 이름: 홍길동, 나이: 20
          * 공부 중
          * */
-        Person person = new Person("홍길동", 20);
+ /*       Person person = new Person("홍길동", 20);
         person.selfIntroduction();
 
 
 
         Student student = new Student("이학생", 22, 12345);
         student.selfIntroduction();
-        student.study();
+        student.study();*/
 
     }
 

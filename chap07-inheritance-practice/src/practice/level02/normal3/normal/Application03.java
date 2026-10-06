@@ -1,4 +1,4 @@
-package practice.level02.normal;
+package practice.level02.normal3.normal;
 
 public class Application03 {
 
@@ -30,8 +30,8 @@ public class Application03 {
          * 이름: 바둑이, 품종: 진돗개
          * */
 
-        Dog dog = new Dog("바둑이", "진돗개");
-        dog.printInfo();
+/*        Dog dog = new Dog("바둑이", "진돗개");
+        dog.printInfo();*/
 
 
     }

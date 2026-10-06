@@ -26,13 +26,13 @@ public class Application01 {
          * 보트가 물 위를 떠다닙니다.
          * */
 
-        Vehicle[] vehicles = new Vehicle[2];
+     /*   Vehicle[] vehicles = new Vehicle[2];
         vehicles[0] = new Car();
         vehicles[1] = new Boat();
 
         for (Vehicle vehicle : vehicles) {
             vehicle.move();
-        }
+        }*/
 
     }
 
