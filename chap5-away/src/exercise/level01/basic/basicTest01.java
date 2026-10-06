@@ -1,7 +1,7 @@
 package exercise.level01.basic;
 import java.util.Scanner;
 
-public class basicTest {
+public class basicTest01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

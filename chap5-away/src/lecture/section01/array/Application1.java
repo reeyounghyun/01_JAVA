@@ -1,4 +1,4 @@
-package lecture.section01.ayway;
+package lecture.section01.array;
 
 public class Application1 {
     public static void main(String[] args) {
@@ -19,7 +19,11 @@ public class Application1 {
 
         // 하나의 이름으로 관리되는 "연속된" 메모리 공간이다.
         // 인텍스로 값을 찾아 올 수 있다.
-        System.out.println("arr[0] :" +arr[0]);
+//        System.out.println("arr[0] = " + arr[0]);
+//        System.out.println("arr[0] = " + arr[1]);
+//        System.out.println("arr[0] = " + arr[2]);
+//        System.out.println("arr[0] = " + arr[3]);
+//        System.out.println("arr[0] = " + arr[4]);
 
         for(int i = 0; i < 5; i++) {
             System.out.println("arr["+i+"] :" +arr[i]);
