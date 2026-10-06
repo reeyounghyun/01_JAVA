@@ -1,6 +1,6 @@
 package exercise.chap03_method_and_api;
 
-public class Normal {
+public class Normal2 {
 
     public static void main(String[] args) {
         System.out.println("max(20,35):" + Math.max(20,35));

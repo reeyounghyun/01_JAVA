@@ -1,94 +1,68 @@
-package exercise.chap04_method_and_api;
+package exercise.chap04_control_flow;
 
 import java.util.Scanner;
 
 public class Basic {
 
-/*
-* &#x20;        /\* 다음 조건을 만족하는 프로그램을 작성하시오.
-&#x20;        \*   구현 클래스 Calculator, Application01
-&#x20;        \*   구현 내용
-&#x20;        \*   Calculator
-&#x20;        \*   - checkMethod(): void 설명 : 함수 호출, 확인용 메소드
-&#x20;        \*   - sumTwoNumber(a:int, b:int): int 설명 : 두 수를 입력 받아 합을 리턴한다.
-&#x20;        \*   - minusTwoNumber(a:int, b:int): int 설명 : 두 수를 입력 받아 차를 리턴한다.
-&#x20;        \*   - multiTwoNumber(a:int, b:int): int 설명 : 두 수를 입력 받아 곱한 값을 리턴한다.
-&#x20;        \*   - divideTwoNumber(a:int, b:int): int 설명 : 두 수를 입력 받아 나눈 값을 리턴한다.
-&#x20;        \*
-&#x20;        \*   Application01
-&#x20;        \*   - main(args:String\[]): void 설명 : 모든 메소드는 main 함수에서 호출하여 출력한다.
-&#x20;        \*   // 메소드 호출 확인용 메소드 호출
-&#x20;        \*   // 10, 20 두 개의 정수를 매개변수로 하여 두 수를 더하는 메소드 호출 후 리턴값 출력
-&#x20;        \*   // 10, 5 두 개의 정수를 매개변수로 하여 두 수의 차를 구하는 메소드 호출 후 리턴값 출력
-&#x20;        \*   // 10, 5 두 개의 정수를 매개변수로 하여 두 수의 곱을 구하는 메소드 호출 후 리턴값 출력
-&#x20;        \*   // 10, 5 두 개의 정수를 매개변수로 하여 두 수의 몫을 구하는 메소드 호출 후 리턴값 출력
-&#x20;        \*
-&#x20;        \*   \* Application
-&#x20;        \*     - Calculator calc = new Calculator()
-&#x20;        \*     - 이 구문은 Calculator 메소드를 호출하기 위해 추가한다.
-&#x20;        \*
+    static void main() {
 
-&#x20;        \*   실행 결과
-
-&#x20;        \*   - 메소트 호출 확인
-&#x20;        \*   - 10과 20의 합 : 30
-&#x20;        \*   - 10과 5의 차 : 5
-&#x20;        \*   - 10과 5의 곱 : 50
-&#x20;        \*   - 10과 5의 나눈 후 몫 : 2
-&#x20;        \*  \*/
-
-    //호출하는 영역
-    // - checkMethod(): void 설명 : 함수 호출, 확인용 메소드
-    public void checkMethod() {
-        System.out.println("checkMethod 호출 확인");
-    }
-
-    public int sumTwoNumber(int a, int b) {
-        return a + b;
-    }
-
-    public int minusTwoNumber(int x, int y) {
-        return x - y;
-    }
-
-    public int multiTwoNumber(int x, int y) {
-        return x * y;
-    }
-
-    public double divideTwoNumber(int x, int y) {
-        return (double) x / y;
-    }
-
-    //sumTwoNumber(a:int, b:int): int 설명 : 두 수를 입력 받아 합을 리턴한다.
-    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Basic calc = new Basic();
-        calc.checkMethod();
+        System.out.print("정수를 하나 입력하세요 : ");
+        int num = sc.nextInt();
 
-        int first = 10;
-        int second = 20;
-        int third = 5;
+        if (num % 2 != 0) {
+            System.out.println("정수입니다.");
+        }
 
-        System.out.println("10과20의 합:" + calc.sumTwoNumber(first,second));
-        //int result = calc.sumTwoNumber(10, 20);
-        calc.sumTwoNumber(10,20);
-        //System.out.println("10과20의 합 : "+result);
 
-        System.out.println("10과20의 차:" + calc.minusTwoNumber(first,second));
-        //int result2 = calc.minusTwoNumber(10, 5);
-        calc.minusTwoNumber(10,5);
-        //System.out.println("10과 5의 차 : "+)result2;
 
-        System.out.println("10과20의 곱:" + calc.multiTwoNumber(first,third));
-        //int result3 = calc.multiTwoNumber(10,5);
-        calc.multiTwoNumber(10,5);
-       // System.out.println("10과 5의 곱: "+result3);
 
-        System.out.println("10과20의 나누기:" + calc.divideTwoNumber(first,third));
-        //int result4 = (int) calc.divideTwoNumber(10,5);
-        calc.divideTwoNumber(10,5);
-        //System.out.println("10과 5의 나누기 : "+result4);
+
+
+
+        /* Q1. 정수를 하나 입력 받아 그 수가 양수이면 "양수다." 라고 출력하고,
+         * 양수가 아닌 경우 "양수가 아니다." 라고 출력하세요.
+         *
+         * -- 입력 예시 --
+         * 정수를 하나 입력하세요 : 5
+         *
+         * -- 출력 예시 --
+         * 양수다.
+         * */
+
+        /* Q2. 정수를 입력 받아 그 수가 짝수인지 홀수인지 판단해서 결과를 출력하세요.
+         * 짝수인 경우 "짝수다." 출력, 홀수인 경우 "홀수다." 출력
+         *
+         * -- 입력 예시 --
+         * 정수를 하나 입력하세요 : 5
+         *
+         * -- 출력 예시 --
+         * 홀수다.
+         * */
+
+        /* Q3. 1부터 10까지 합계를 구하고 결과를 출력하세요. (반복문 사용)
+         *
+         * -- 출력 예시 --
+         * 1부터 10까지의 합 : 55
+         * */
+
+        /* Q4. 정수 한 개를 입력 받고, 1부터 입력 받은 정수까지의 합을 계산해서 출력하세요.
+         *
+         * -- 입력 예시 --
+         * 정수를 입력하세요 : 5
+         *
+         * -- 출력 예시 --
+         * 1부터 5까지의 합 : 15
+         * */
+
+        /* Q5. 1부터 입력받은 정수까지의 짝수의 합을 구하세요.
+         *
+         * -- 입력 예시 --
+         * 정수를 입력하세요 : 10
+         *
+         * -- 출력 예시 --
+         * 1부터 10까지 짝수의 합 : 30
+         * */
     }
-
 }
