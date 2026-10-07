@@ -4,7 +4,7 @@ import lecture.section2.extend.*;
 
 public class Application2 {
     /* extends 키워드를 사용하면 특정 타입만 사용하도록 재한 할 수 있음*/
-    public static void main() {
+    public static void main(String[] args) {
 
         /* 와일드 카드 [ ? ]
          * <?> : 제한없음
