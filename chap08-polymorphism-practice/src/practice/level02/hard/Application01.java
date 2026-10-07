@@ -1,5 +1,7 @@
 package practice.level02.hard;
 
+import practice.level022.hard.level02.hard.Vehicle;
+
 public class Application01 {
 
     public static void main(String[] args) {
