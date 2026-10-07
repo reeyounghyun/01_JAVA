@@ -14,10 +14,12 @@ public class BookDTO {
 
 
     // 생성자 (모든필드를 초기화하는 생성자, 기본 생성자, +a)
-/*
-    public BookDT0() {
+    public BookDTO() {
     }
-*/
+
+    public BookDTO(int i, String 홍길동전, String 허균, int i1) {
+    }
+
 
     public void BookDT0(int number, String title, String author, int price) {
         this.number = number;
@@ -63,7 +65,7 @@ public class BookDTO {
     // toSrting
     @Override
     public String toString() {
-        return "BookDT0{" +
+        return "BookDTO{" +
                 "number=" + number +
                 ", title='" + title + '\'' +
                 ", author='" + author + '\'' +
