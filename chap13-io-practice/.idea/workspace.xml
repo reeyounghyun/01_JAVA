@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b49aa32c-5f5d-4a5e-aafb-e623c9092bef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lecture/level01/basic/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture/level01/basic/Question2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture/level01/basic/example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap12-exception-practice/src/practice/level01/basic/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-exception-practice/src/practice/level01/basic/Question1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap12-exception-practice/src/practice/level02/normal/NegativeNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-exception-practice/src/practice/level02/normal/NegativeNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap12-exception-practice/src/practice/level02/normal/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap12-exception-practice/src/practice/level02/normal/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture/level01/basic/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/level01/basic/Question.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "reeyounghyun"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/reeyounghyun/01_JAVA.git",
+    "accountId": "9705f854-5e9c-4745-a33c-6a324ad3d612"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3KPDl4Z69610WGUyv5KDXZFqmWb" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Question.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "practice",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/이영현/01_java/chap13-io-practice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lecture.level01.basic" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b49aa32c-5f5d-4a5e-aafb-e623c9092bef" name="Changes" comment="" />
+      <created>1791450456300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791450456300</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
