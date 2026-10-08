@@ -1,0 +1,19 @@
+Index: src/lecture/section01/userexception/Application1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package lecture.section01.userexception;\r\n\r\nimport lecture.section01.userexception.exception.MoneyNegativeException;\r\nimport lecture.section01.userexception.exception.NegetiveException;\r\nimport lecture.section01.userexception.exception.NotEnoughMoneyException;\r\nimport lecture.section01.userexception.exception.PriceNegativeException;\r\n\r\npublic class Application1 {\r\n    static void main(String[] args) {\r\n        ExceptionTest et = new ExceptionTest(); // 객체\r\n\r\n        try {\r\n            et.checkEnoughMoney(1000, 100);\r\n\r\n            /*Catch 예외 상황별로 작성 할 수 있다.\r\n            - 더 상세한 예외를 상단에 작성해주어야 한다 (동작 순서 중요)\r\n            *\r\n            * */\r\n        } catch (PriceNegativeException e) {\r\n            System.out.println(\"(Application1) PriceNegative Exception 발생 !!\");\r\n            System.out.println(e.getMessage());\r\n\r\n        } catch (MoneyNegativeException e) {\r\n            System.out.println(\"(Application1) MoneyNegative Exception 발생 !!\");\r\n            System.out.println(e.getMessage());\r\n\r\n        } catch (NegetiveException e) {\r\n            System.out.println(\"(Application1) Negative Exception 발생 !!\");\r\n            System.out.println(e.getMessage());\r\n        } catch (Exception e) {\r\n            System.out.println(\"(Application1) NotEnoughMoneyException 발생 !!\");\r\n            System.out.println(e.getMessage());\r\n        } finally {\r\n            // 예외와 상관없이 동작할 내용\r\n            System.out.println(\"finally 블럭의 내용이 동작함!\");\r\n            //System.out.println(\"돈이 부족합니다\");\r\n        }\r\n\r\n        System.out.println(\"프로그램을 종료합니다.\");\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/lecture/section01/userexception/Application1.java b/src/lecture/section01/userexception/Application1.java
+--- a/src/lecture/section01/userexception/Application1.java	(revision 500384c293d11d098ef9400545cebc00f5e666a6)
++++ b/src/lecture/section01/userexception/Application1.java	(date 1791449488554)
+@@ -1,9 +1,6 @@
+ package lecture.section01.userexception;
+ 
+-import lecture.section01.userexception.exception.MoneyNegativeException;
+-import lecture.section01.userexception.exception.NegetiveException;
+-import lecture.section01.userexception.exception.NotEnoughMoneyException;
+-import lecture.section01.userexception.exception.PriceNegativeException;
++import
+ 
+ public class Application1 {
+     static void main(String[] args) {

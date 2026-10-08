@@ -23,13 +23,6 @@ public class Question {
         // 1. 키보드 입력을 읽어올 Scanner 생성
         Scanner scan = new Scanner(System.in);
 
-        // 2. 두 수를 입력받기 나눗셈을 수행하기 (괄호는 비워둔다)
-        System.out.print("첫 번째 정수 입력 : ");
-        int a = scan.nextInt();
-
-        System.out.print("두 번째 정수 입력 : ");
-        int b = scan.nextInt();
-
         // 조건
         // 음수를 입력받으면 NegativeNumberException을 발생시키고, 적절한 메시지 출력
 
