@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/01_java.iml" filepath="$PROJECT_DIR$/.idea/01_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap01-literal-and-variable-practice/chap01-literal-and-variable-practice.iml" filepath="$PROJECT_DIR$/chap01-literal-and-variable-practice/chap01-literal-and-variable-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap02-operator/chap02-operator.iml" filepath="$PROJECT_DIR$/chap02-operator/chap02-operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap03_method_and_api/chap03_method_and_api.iml" filepath="$PROJECT_DIR$/chap03_method_and_api/chap03_method_and_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap04-control-flow/chap04-control-flow.iml" filepath="$PROJECT_DIR$/chap04-control-flow/chap04-control-flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap07-inhenitance/chap07-inhenitance.iml" filepath="$PROJECT_DIR$/chap07-inhenitance/chap07-inhenitance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap07-inheritance-practice/chap07-inheritance-practice.iml" filepath="$PROJECT_DIR$/chap07-inheritance-practice/chap07-inheritance-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap08-polymorphism/chap08-polymorphism.iml" filepath="$PROJECT_DIR$/chap08-polymorphism/chap08-polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap08-polymorphism-practice/chap08-polymorphism-practice.iml" filepath="$PROJECT_DIR$/chap08-polymorphism-practice/chap08-polymorphism-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap09-API/chap09-API.iml" filepath="$PROJECT_DIR$/chap09-API/chap09-API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap09-api-practice/chap09-api-practice.iml" filepath="$PROJECT_DIR$/chap09-api-practice/chap09-api-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap10-Generics/chap10-Generics.iml" filepath="$PROJECT_DIR$/chap10-Generics/chap10-Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap10-generic-practice/chap10-generic-practice.iml" filepath="$PROJECT_DIR$/chap10-generic-practice/chap10-generic-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap11-collections-practice/chap11-collections-practice.iml" filepath="$PROJECT_DIR$/chap11-collections-practice/chap11-collections-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap11-collextions/chap11-collextions.iml" filepath="$PROJECT_DIR$/chap11-collextions/chap11-collextions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap12-exception/chap12-exception.iml" filepath="$PROJECT_DIR$/chap12-exception/chap12-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap13-io/chap13-io.iml" filepath="$PROJECT_DIR$/chap13-io/chap13-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap5-away/chap5-away.iml" filepath="$PROJECT_DIR$/chap5-away/chap5-away.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap6-class-and-object/chap6-class-and-object.iml" filepath="$PROJECT_DIR$/chap6-class-and-object/chap6-class-and-object.iml" />
+    </modules>
+  </component>
+</project>
