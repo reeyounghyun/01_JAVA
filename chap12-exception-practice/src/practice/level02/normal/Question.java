@@ -1,7 +1,5 @@
 package practice.level02.normal;
 
-import java.util.Scanner;
-
 public class Question {
 
     public static void main(String[] args) {
@@ -19,23 +17,19 @@ public class Question {
          * 출력 예시:
          * 음수는 입력할 수 없습니다.
          * */
+        Question.test();
 
-        // 1. 키보드 입력을 읽어올 Scanner 생성
-        Scanner scan = new Scanner(System.in);
+    }
 
-        // 조건
-        // 음수를 입력받으면 NegativeNumberException을 발생시키고, 적절한 메시지 출력
+    public static void test() {
 
-        try() {
-            System.out.println("시작 되었습니다.");
-        }catch() {
-            throw new (NegativeNumberException e);
-            System.out.println("발생되었습니다");
+        try {
+            // 예외가 발생할수도있는 코드
+            throw new NegativeNumberException("내가만든 설명메시지"); //예외를 발생시킨것!
+        } catch (NegativeNumberException e) {
+            // NegativeNumberException 발생했을때 동작할 내용
+            System.out.println(e.getMessage());
         }
-
-        System.out.println("종료 되었습니다.");
-
-
     }
 
 }

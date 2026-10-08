@@ -42,6 +42,7 @@ public class Question1 {
             int result = a / b;                          // b가 0이면 여기서 예외 발생 → catch로 이동
             System.out.println("나누기 결과: " + result);  // 성공했을 때만 실행
         } catch (ArithmeticException e) {
+            System.out.println(e.getMessage());
             System.out.println("0으로 나눌 수 없습니다."); // 0으로 나눴을 때만 실행
         }
 
