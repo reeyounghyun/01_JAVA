@@ -27,11 +27,10 @@ public class Anser2 {
 
         // 500을 더한다
         // num = num +500;
-        num +=500;
-        System.out.println("num = " + num);
+        num += 500;
 
         // 200을 뺀다.
-        num -=200 ;
+        num -= 200;
         System.out.println("num = " + num);
 
         // 2를 곱한다.
@@ -44,7 +43,7 @@ public class Anser2 {
 
         System.out.println("복합 대입 후 포인트 = " + num);
 
-        int  beforeAdd = num++;
+        int beforeAdd = num++;
         System.out.println("후위 증가식 반환한 값 = " + beforeAdd);
         System.out.println("beforeAdd = " + num);
     }

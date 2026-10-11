@@ -19,9 +19,12 @@ public class PraticeProblem {
          *
          * 실행 결과
          * 125초는 2분 5초입니다.
-         */
+*/
+        int totalSeconds = 125;
+        String minutes = "분";
+        String seconds = "초";
 
-        /*
+         /*
          * 문제 2. 복합 대입 연산자와 후위 증가
          *
          * point 변수의 초기값은 1000이다.
@@ -40,6 +43,16 @@ public class PraticeProblem {
          * 후위 증가 후 현재 포인트 : 651
          */
 
+        int point = 1000;
+        point += 500;
+        point -= 200;
+        point *= 2;
+        point /= 4;
+        System.out.println("복합 대입 후 포인트: "+ point);
+        System.out.println("후위 증가식 반환한 값: "+ point);
+        System.out.println("후위 증가 후 현재 포인트:" + ++point);
+
+
         /*
          * 문제 3. 실수와 문자열 비교
          *
@@ -55,6 +68,18 @@ public class PraticeProblem {
          * == 비교 결과 : false
          * equals 비교 결과 : true
          */
+
+        double sum = 0.1 + 0.2;
+
+        float num1 =  0.1f;
+        float num2 =  0.2f;
+        float v = num1 + num2;
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println("0.1+0.2: " + sum);
+        System.out.println("0.3과 같은가? : " + (sum == 0.3));
+        System.out.println("equals 비교 결과:"  +  (v == num1 + num2));
+
 
         /*
          * 문제 4. 논리 연산자와 단락 평가
@@ -72,6 +97,29 @@ public class PraticeProblem {
          * 무료입장 여부 : false
          * 안전한 나눗셈 조건 결과 : false
          */
+
+        //1.age는 20, hasTicket은 true로 선언한다
+        int age = 20;
+        boolean hasTicker = true;
+
+        //2.age가 19 이상이면서 티켓이 있는지 검사하여 canEnter에 저장한다.
+        boolean canEnter = ((age >= 19) && hasTicker);
+        System.out.println("입장 가능 여부:"  + canEnter);
+
+        //3.age가 7 이하이거나 65 이상인지 검사하여 hasFreeAdmission에 저장한다.
+       boolean hasFreeAdmission = (age <= 7) || (age >= 65);
+       System.out.println("무료입장 여부:"  + hasFreeAdmission);
+
+        //4. numerator는 10, denominator는 0으로 선언한다.
+        int numerator = 10;
+        int denominator = 0;
+        //System.out.println(numerator); System.out.println(denominator);
+        
+        //5.denominator가 0이 아니면서 나눗셈 결과가 2보다 큰지 검사한다
+        boolean result = (denominator != 0) && ( numerator / denominator > 2);
+        System.out.println("안전한 나눗셈 조건 결과:"  + result);
+
+
 
         /*
          * 문제 5. 삼항 연산자로 숫자 분류

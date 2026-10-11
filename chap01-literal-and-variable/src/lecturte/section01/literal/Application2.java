@@ -17,6 +17,7 @@ public class Application2 {
         System.out.println(0.1+ 0.2); // 0.3
         //부동소수점 : 10진소수를 2진소수로 표현할 수 없는 상황이 생김
         // 따라서 소수를 가장 가까운, 근사값으로 저장해서 계산하게 되여, 오차가 생길 수 있음
+        System.out.println(10/5.0);
 
         // 문자 연산
         // ASCLL 아스크 코드 : 정의된 값이 있음

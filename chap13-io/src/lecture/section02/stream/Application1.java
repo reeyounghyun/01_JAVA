@@ -20,7 +20,7 @@ public class Application1 {
          * */
         try (FileInputStream fin = new FileInputStream(
                 "src/lecture/section02/stream/testInputStream.txt")) {
-
+r
             int value;
 
             // read() : 1byte씩 순차적으로 읽어오고, 더 이상 읽을 게 없으면 -1을 반환한다.

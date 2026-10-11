@@ -5,58 +5,7 @@ public class basicTest01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        /* Q1. 5개의 정수를 입력받아 배열에 저장한 후, 저장된 값을 순서대로 출력하세요.
-         *
-         * -- 입력 예시 --
-         * 정수 5개를 입력하세요: 1 2 3 4 5
-         *
-         * -- 출력 예시 --
-         * 저장된 값: 1 2 3 4 5
-
-
-
-
-        System.out.print("정수 5개를 입력하세요 : ");
-
-        int[] arr = new int[5];
-
-        arr[0] = input.nextInt();
-        arr[1] = input.nextInt();
-        arr[2] = input.nextInt();
-        arr[3] = input.nextInt();
-        arr[4] = input.nextInt();
-
-        System.out.println("저장된 값 : " + arr[0] + " " + arr[1] + " " + arr[2] + " " + arr[3] + " " + arr[4]);
-        // System.out.println("arr = " + arr);
-
-    * */
-
-        /* Q2. 5개의 정수를 입력받아 배열에 저장한 후, 저장된 값을 거꾸로 출력하세요.
-         *
-         * -- 입력 예시 --
-         * 정수 5개를 입력하세요: 1 2 3 4 5
-         *
-         * -- 출력 예시 --
-         * 저장된 값 (거꾸로): 5 4 3 2 1
-
-        int[] arr = new int[5];
-
-        System.out.println("점수 5개를 입력하세요");
-
-        for(int i = 0; i < 5; i++) {
-            arr[i] = input.nextInt();
-
-            System.out.print(arr[i]+ "");
-        }
-        System.out.println("저장된 값 (거꾸루)");
-
-        for(int i = 4; i < 5; i--) {
-            arr[i] = input.nextInt();
-
-            System.out.print(arr[i]+ "");
-        }
-        *  * */
-
+        /*
         /* Q3. 배열을 "선언과 동시에 초기화" 하는 방식과 "선언만 하고 자동 기본값으로 두는" 방식을
          *  비교하는 문제입니다.
          *
