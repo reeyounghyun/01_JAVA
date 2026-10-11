@@ -25,16 +25,21 @@ public class Question {
         File file = new File("src/lecture/level01/basic/example.txt");
 
         // 경로에 해당하는 파일을 생성
-        if (file.createNewFile()) {
-            System.out.println("example.txt 파일이 생성되었습니다");
-        }if(file.exists()){
-            System.out.println("example.txt 파일이 존재합니다.");
-        }else(IOException e) {
-            System.out.println("example.txt 파일이생성에 실패했습니다");
+        // 2. 파일 생성은 실패할 수 있어서 try로 감싼다
+        try {
+            // 3. 파일을 실제로 만든다. 새로 만들었으면 true
+            if (file.createNewFile()) {
+                System.out.println("example.txt 파일이 생성되었습니다.");
+            }
+            // 4. 파일이 있는지 확인한다. 있으면 true
+            if (file.exists()) {
+                System.out.println("example.txt 파일이 존재합니다.");
+            }
+        } catch (IOException e) {
+            // 5. 파일을 만들다가 문제가 생기면 여기로 온다
+            System.out.println("파일 생성에 실패했습니다.");
         }
-    }
 
-    public Question() {
     }
 
 }

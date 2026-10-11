@@ -17,11 +17,31 @@ public class Question2 {
          *
          * 출력 예시:
          * Double 데이터: 45.67
+         *
+         * 다이아몬드 연산자 = <>;
+         *
          * */
+
+        //인스턴스 생성하고.
+        Container<Double> con = new Container<>();
+
+        //호출 메서드 생성
+        con.add(45.67);
+        con.get();
+
+        // 데이터 출력
+        System.out.println("Double 데이터: " +con.get());
+        System.out.println("다이아몬드 연산자: " + "<>");
+
+
+
+
 
 
 
 
     }
+
+
 
 }

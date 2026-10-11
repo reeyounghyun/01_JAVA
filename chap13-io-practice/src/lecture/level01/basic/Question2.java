@@ -1,5 +1,8 @@
 package lecture.level01.basic;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+
 public class Question2 {
 
     public static void main(String[] args) {
@@ -25,6 +28,27 @@ public class Question2 {
          * 파일 내용: Hello, World!
          * */
 
+        // 파일을 읽다가 실패할 수 있어서 try로 감싼다
+        try {
+
+            // 1. 파일을 읽는 통로를 만든다
+            FileInputStream fis = new FileInputStream("src/lecture/level01/basic/example2.txt");
+
+            System.out.print("파일 내용: ");
+
+            // 3. 한 글자씩 읽어서, 끝(-1)이 아닌 동안 반복한다
+            int data;
+            while ((data = fis.read()) != -1) {
+                // 4. 숫자로 읽힌 값을 글자로 바꿔서 옆으로 이어 출력한다
+                System.out.print((char) data);
+            }
+            // 5. 다 읽었으면 통로를 닫는다
+            fis.close();
+
+        } catch (IOException e) {
+            // 파일이 없거나 읽다가 문제가 생기면 여기로 온다
+            System.out.println("파일을 읽는 중 오류가 발생했습니다.");
+        }
     }
 
 }

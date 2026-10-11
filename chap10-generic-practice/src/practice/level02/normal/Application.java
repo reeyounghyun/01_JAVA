@@ -3,7 +3,11 @@ package practice.level02.normal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Question {
+public class Application {
+
+ /*   public static <T> void printList(List<T> list) {
+        System.out.println(list);
+    }*/
 
     public static void main(String[] args) {
 
@@ -20,7 +24,35 @@ public class Question {
          * 출력 예시:
          * 문자열 리스트: [Hello, Generics, Java]
          * 정수 리스트: [1, 2, 3]
+         *
+         *
          * */
+
+        //String[] text = {"Hello","Generics","Java"};
+        // System.out.println("args = " + text[0]);
+
+/*        for (int i = 0; i < 3; i++) {
+            System.out.print(text[i]);
+        }*/
+
+        /*List<Integer> ger = new ArrayList<>();
+        List<String> ing = new ArrayList<>();
+
+        ger.add(1);
+        ger.add(2);
+        ger.add(3);
+
+        ing.add("Hello");
+        ing.add("Generics");
+        ing.add("Java");
+
+        System.out.println("문자열 리스트: = " + ing);
+        printList(ing);
+
+        System.out.println("정수 리스트: = " + ger);
+
+*/
+
 
         /* Q2. 와일드카드를 사용하여 제네릭 클래스의 인자의 타입 범위를 제한하세요.
          *
@@ -37,6 +69,16 @@ public class Question {
          * 숫자 리스트: [10, 20, 30.5, 40.7]
          * */
 
-    }
 
+        List<Number> list = new ArrayList<>();
+        list.add(10);
+        list.add(20);
+        list.add(30.5);
+        list.add(40.7);
+
+        NumberBox box = new NumberBox(); //
+        box.addNumber(list); // 숫자추가 메소드 호출
+        System.out.println("숫자 리스트: " + box.getNumbers());
+
+    }
 }

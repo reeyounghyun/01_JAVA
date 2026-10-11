@@ -1,6 +1,14 @@
 package lecture.level03.hard;
 
-public class Question {
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
+public class Application {
 
     public static void main(String[] args) {
 
@@ -34,6 +42,33 @@ public class Question {
          * member.dat 파일에 객체가 저장되었습니다.
          * 읽어온 객체 : Member{name=홍길동, age=20}
          * */
-    }
+        // 1. 저장할 객체를 만든다
+        Member member = new Member("홍길동", 20);
 
+        // 2. 파일에 저장한다
+        //    통로 세 개를 겹쳐서 만든다 (try 괄호 안에 만들면 자동으로 닫힌다)
+        try (ObjectOutputStream oos = new ObjectOutputStream(
+                new BufferedOutputStream(
+                        new FileOutputStream("member.dat")))) {
+
+            // 통로로 member 객체를 파일에 쓴다
+            oos.writeObject(member);
+            System.out.println("member.dat 파일에 객체가 저장되었습니다.");
+        } catch (IOException e) {
+            System.out.println("저장 중 오류가 발생했습니다.");
+        }
+
+        // 3. 파일에서 다시 읽어온다 (저장과 모양이 같고 방향만 반대)
+        try (ObjectInputStream ois = new ObjectInputStream(
+                new BufferedInputStream(
+                        new FileInputStream("member.dat")))) {
+
+            // 읽어온 것을 Member로 형변환해서 담는다
+            Member readMember = (Member) ois.readObject();
+            // toString()이 자동으로 불려서 내용이 출력된다
+            System.out.println("읽어온 객체 : " + readMember);
+        } catch (IOException | ClassNotFoundException e) {
+            System.out.println("읽기 중 오류가 발생했습니다.");
+        }
+    }
 }

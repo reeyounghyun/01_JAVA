@@ -4,20 +4,6 @@ public class Question {
 
     public static void main(String[] args) {
 
-        /* Q1. ArrayList를 생성하고, 요소를 추가하고, 오름차순으로 정렬하세요.
-         *
-         * 복습 포인트:
-         * - ArrayList의 사용 목적에 대해 이해할 수 있다.
-         * - ArrayList의 주요 메소드의 사용 방법을 숙지하고 개발에 적용할 수 있다.
-         * - Collections.sort() 메소드를 이용하여 오름차순 정렬을 할 수 있다.
-         *
-         * 조건:
-         * - ArrayList에 5, 3, 8, 1, 2를 추가
-         * - 오름차순으로 정렬하여 출력
-         *
-         * 출력 예시:
-         * 정렬된 리스트: [1, 2, 3, 5, 8]
-         * */
 
         /* Q2. LinkedList를 생성하고, 요소를 추가하고, 첫 번째와 마지막 요소를 출력하세요.
          *

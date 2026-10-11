@@ -1,9 +1,8 @@
 package practice.level03.hard;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class Question {
+public class Application {
 
     public static void main(String[] args) {
 
@@ -27,6 +26,12 @@ public class Question {
          * 첫 번째 데이터: 45.67, 두 번째 데이터: World
          * */
 
+
+        MultiBox<String, Integer> box = new MultiBox<>();
+        box.setFirstData("Hello");
+        box.setSecondData(100);
+        box.printData();
+
         /* Q2. 제네릭 클래스를 작성하고, 와일드카드를 사용하여 특정 타입 범위의 데이터를 처리하세요.
          *
          * 복습 포인트:
@@ -41,6 +46,22 @@ public class Question {
          * 출력 예시:
          * 데이터 처리 결과: [10, 20.5, 30, 40.7]
          * */
+
+        List<Number> list = new ArrayList<>();
+        list.add(10);
+        list.add(20.5);
+        list.add(30);
+        list.add(40.7);
+
+        //객체 인스턴스를 만들어보자
+        DataProcessor dp = new DataProcessor()_;
+
+        // 만든 객체를 활용하여 메서드를 호출한다.
+        dp.addData(list);
+        System.out.println(list);
+        dp.processData();
+
+        System.out.println("데이터 처리 결과: " + list);
 
     }
 
