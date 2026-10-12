@@ -70,8 +70,7 @@ public class Application {
         try {
             return Double.parseDouble(input);
         } catch (NumberFormatException e) {
-            //throw new CalculatorException(CalculatorErrorCode.INVALID_NUMBER);
-            throw new CalculatorException(CalculatorErrorCode.DIVIDE_BY_ZERO);
+            throw new CalculatorException(CalculatorErrorCode.INVALID_NUMBER);
         }
     }
 }
