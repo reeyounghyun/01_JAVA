@@ -1,5 +1,7 @@
 package exercise.level03.hard;
 
+import java.util.Arrays;
+
 public class Question {
 
     public static void main(String[] args) {
@@ -17,5 +19,18 @@ public class Question {
          * apricot
          * avocado
          * */
+
+        String[] words = {"apple", "banana", "apricot", "cherry", "avocado"};
+        Arrays.stream(words)
+                .filter(word -> word.startsWith("a"))
+                .sorted()
+                .forEach(System.out::println);
+        //forEach 걸러진 단어를 하나씩 추출한다.
+
+       /* Arrays.stream(words)    // 만들고
+          .filter(...)            // 거르고
+          .sorted()               // 정렬하고
+          .forEach(...);          // 출력하고 끝 ← 여기만 ;*/
+
     }
 }

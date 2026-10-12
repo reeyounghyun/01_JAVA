@@ -14,7 +14,7 @@ public class Application2 {
                 //”숫자 i를 하나씩 받아서, 짝수면 남기고 홀수면 버려라
                 .filter((int i) -> (i % 2) == 0) // 짝수만 다음 stream으로 넘긴다.
                 .map(i -> i * 5) //숫자 i를 하나씩 받아서 5를 곱한 값으로 바꿔라
-                .forEach(System.out::println);
+                .forEach(System.out::println); //숫자 i를 하나씩 받아서
 
         /***************************************************************/
 

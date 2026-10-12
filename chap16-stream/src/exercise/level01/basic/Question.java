@@ -1,4 +1,5 @@
 package exercise.level01.basic;
+import java.util.Arrays;
 
 public class Question {
 
@@ -15,5 +16,14 @@ public class Question {
          * 40
          * 50
          * */
+
+        // 정수 배열 생성
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        // 배열 → 스트림(IntStream)으로 변환한 뒤, 요소를 하나씩 출력
+        Arrays.stream(numbers)
+                .forEach(num -> System.out.println(num));
+
+
     }
 }

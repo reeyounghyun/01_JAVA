@@ -1,4 +1,4 @@
-package practice.level04.advanced.skeleton.run;
+package exercise.level04.advanced.skeleton.run;
 
 import exercise.level04.advanced.skeleton.controller.MemberController;
 import exercise.level04.advanced.skeleton.model.MembershipType;

@@ -17,14 +17,14 @@ public class Application0 {
 
         // 방법 ① 향상된 for문 (전통적인 방식)
         // strList에서 하나씩 꺼내서 str에 담고, 출력을 반복
-        for (String str : strList) {
+      /*  for (String str : strList) {
             System.out.println(str);
-        }
+        }*/
 
         // 방법 ② 리스트의 forEach + 람다식
         // "str을 하나씩 받아서 -> 출력해라"
         // for문을 한 줄로 줄인 것과 같음
-        strList.forEach(str -> System.out.println(str));
+       // strList.forEach(str -> System.out.println(str));
 
         // 방법 ③ 스트림으로 바꾼 뒤 forEach
         // .stream() : 리스트를 스트림(데이터가 흐르는 통로)으로 변환
