@@ -3,8 +3,6 @@ package lecture.caculator;
 import java.util.Scanner;
 import java.util.concurrent.CancellationException;
 
-import static lecture.caculator.CalculatorErrorCode.DIVIDE_BY_ZERO;
-
 /*계산기르 만들어보자 */
 public class Application {
     static void main(String[] args) throws CancellationException {
