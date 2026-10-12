@@ -4,4 +4,7 @@ public class Example {
     static void printName (String[] name) {
         System.out.println("이름 : " + name);
     }
+
+    public static void printName(String s) {
+    }
 }
