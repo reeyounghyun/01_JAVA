@@ -1,6 +1,6 @@
 package exercise.level04.advanced.skeleton.view;
 
-import practice.level04.advanced.skeleton.model.Member;
+import exercise.level04.advanced.skeleton.model.Member;
 
 import java.util.List;
 

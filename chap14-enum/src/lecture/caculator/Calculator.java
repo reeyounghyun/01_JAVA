@@ -1,9 +1,5 @@
 package lecture.caculator;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
-import java.util.Scanner;
-
 // 계산 매소드 만들어놓은 클래스
 public class Calculator {
 

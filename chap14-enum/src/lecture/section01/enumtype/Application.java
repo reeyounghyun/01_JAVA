@@ -1,7 +1,5 @@
 package lecture.section01.enumtype;
 
-import javax.security.auth.Subject;
-
 public class Application {
     public static void main(String[] args) {
 

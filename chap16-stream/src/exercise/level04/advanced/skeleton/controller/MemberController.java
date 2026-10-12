@@ -1,9 +1,9 @@
 package exercise.level04.advanced.skeleton.controller;
 
-import practice.level04.advanced.skeleton.model.Member;
-import practice.level04.advanced.skeleton.model.MembershipType;
-import practice.level04.advanced.skeleton.repository.GymDatabase;
-import practice.level04.advanced.skeleton.view.MemberView;
+import exercise.level04.advanced.skeleton.model.Member;
+import exercise.level04.advanced.skeleton.model.MembershipType;
+import exercise.level04.advanced.skeleton.repository.GymDatabase;
+import exercise.level04.advanced.skeleton.view.MemberView;
 
 import java.util.Calendar;
 import java.util.Date;

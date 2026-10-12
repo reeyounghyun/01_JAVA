@@ -1,7 +1,7 @@
 package practice.level04.advanced.skeleton.run;
 
-import practice.level04.advanced.skeleton.controller.MemberController;
-import practice.level04.advanced.skeleton.model.MembershipType;
+import exercise.level04.advanced.skeleton.controller.MemberController;
+import exercise.level04.advanced.skeleton.model.MembershipType;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package practice.level02.normal;
+package exercise.level02.normal;
 
 public class Question {
 

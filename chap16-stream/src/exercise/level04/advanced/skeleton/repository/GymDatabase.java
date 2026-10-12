@@ -1,7 +1,7 @@
 package exercise.level04.advanced.skeleton.repository;
 
-import practice.level04.advanced.skeleton.model.Member;
-import practice.level04.advanced.skeleton.model.MembershipType;
+import exercise.level04.advanced.skeleton.model.Member;
+import exercise.level04.advanced.skeleton.model.MembershipType;
 
 import java.util.ArrayList;
 import java.util.Calendar;

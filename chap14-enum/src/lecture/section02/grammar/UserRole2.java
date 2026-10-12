@@ -2,7 +2,6 @@ package lecture.section02.grammar;
 
 public enum UserRole2 {
 
-
     // 상수 들
     CUEST("게스트"),
     CONSUMER("구매자"),

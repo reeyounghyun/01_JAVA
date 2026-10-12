@@ -1,6 +1,5 @@
 package lecture.section02.functionalInterface;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.function.*;
 

@@ -1,4 +1,4 @@
-package practice.level03.hard;
+package exercise.level03.hard;
 
 public class Question {
 
