@@ -30,6 +30,7 @@ public class Application0 {
         runnable.run(); // 실행
 
         /*
+        매개변수로 소비만 하고 반환은 하지않음.
          * Consumer = 소비자 : 매개변수 O, 리턴값 X : accept()
          * consumer.accept("안녕하세요"); 값이 (str) 로 들어와 실행이 된다.
          * */
@@ -56,7 +57,9 @@ public class Application0 {
         Predicate: 매개변수 O, 리턴값 O : test() * Boolean값을 리턴
         n 에서 n%2를 나눴을때 0 이 나오면 ture
         */
-        Predicate<Integer> isEven = n ->n%2 == 0;
+        Predicate<Integer> isEven = n -> n % 2 == 0;
         System.out.println(isEven.test(6));
+
     }
+
 }
