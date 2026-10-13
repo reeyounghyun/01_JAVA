@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1400"
+     height="900"
+     viewBox="0 0 1400 900"
+     role="img"
+     aria-labelledby="diagram-title diagram-description">
+    <title id="diagram-title">solution 패키지 클래스 의존성 다이어그램</title>
+    <desc id="diagram-description">
+        Application이 MemberController를 호출하고, MemberController가 GymDatabase와 MemberView를 소유한다.
+        GymDatabase는 Member 목록을 저장하며 Member는 MembershipType을 가진다.
+    </desc>
+
+    <style>
+        svg {
+            --background: #f8fafc;
+            --foreground: #172033;
+            --muted: #5f6b7d;
+            --border: #c8d1de;
+            --line: #46566d;
+            --blue-fill: #e9f2ff;
+            --blue-stroke: #4f7db8;
+            --purple-fill: #f2edff;
+            --purple-stroke: #7c63b8;
+            --green-fill: #e9f8f0;
+            --green-stroke: #4d9670;
+            --orange-fill: #fff3e5;
+            --orange-stroke: #b77a38;
+            --neutral-fill: #eef2f7;
+            --neutral-stroke: #68768a;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            svg {
+                --background: #111827;
+                --foreground: #edf2f7;
+                --muted: #b5c0cf;
+                --border: #485568;
+                --line: #aab6c7;
+                --blue-fill: #172d4c;
+                --blue-stroke: #78a8e2;
+                --purple-fill: #2d2548;
+                --purple-stroke: #ab91e4;
+                --green-fill: #173a2b;
+                --green-stroke: #78c49a;
+                --orange-fill: #432d1b;
+                --orange-stroke: #e1a662;
+                --neutral-fill: #263244;
+                --neutral-stroke: #91a0b5;
+            }
+        }
+
+        .canvas {
+            fill: var(--background);
+        }
+
+        text {
+            fill: var(--foreground);
+            font-family: "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif;
+        }
+
+        .title {
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        .subtitle,
+        .legend {
+            fill: var(--muted);
+            font-size: 14px;
+        }
+
+        .node rect {
+            stroke-width: 2;
+        }
+
+        .node .divider {
+            stroke: var(--border);
+            stroke-width: 1;
+        }
+
+        .application rect {
+            fill: var(--blue-fill);
+            stroke: var(--blue-stroke);
+        }
+
+        .controller rect {
+            fill: var(--purple-fill);
+            stroke: var(--purple-stroke);
+        }
+
+        .repository rect {
+            fill: var(--green-fill);
+            stroke: var(--green-stroke);
+        }
+
+        .view rect {
+            fill: var(--orange-fill);
+            stroke: var(--orange-stroke);
+        }
+
+        .model rect {
+            fill: var(--neutral-fill);
+            stroke: var(--neutral-stroke);
+        }
+
+        .package-name {
+            fill: var(--muted);
+            font-size: 13px;
+        }
+
+        .class-name {
+            font-size: 21px;
+            font-weight: 600;
+        }
+
+        .member-text {
+            font-size: 15px;
+        }
+
+        .edge {
+            fill: none;
+            stroke: var(--line);
+            stroke-width: 2;
+            marker-end: url(#arrow);
+        }
+
+        .edge.dependency {
+            stroke-dasharray: 7 6;
+            stroke-width: 1.8;
+        }
+
+        .edge-label {
+            fill: var(--muted);
+            font-size: 13px;
+            paint-order: stroke;
+            stroke: var(--background);
+            stroke-width: 6px;
+            stroke-linejoin: round;
+        }
+
+        a:focus .node rect,
+        a:hover .node rect {
+            stroke-width: 4;
+        }
+    </style>
+
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+                markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--line)"/>
+        </marker>
+    </defs>
+
+    <rect class="canvas" width="1400" height="900"/>
+
+    <text class="title" x="50" y="52">solution 패키지 클래스 의존성</text>
+    <text class="subtitle" x="50" y="78">실선은 실행·소유 관계, 점선은 모델 타입 의존성을 나타냅니다. 노드를 클릭하면 소스 파일로 이동합니다.</text>
+
+    <!-- Dependencies are drawn first so nodes stay visually above the lines. -->
+    <g aria-label="클래스 간 의존 관계">
+        <path class="edge" d="M 300 395 L 385 395"/>
+        <text class="edge-label" x="342" y="381" text-anchor="middle">생성·호출</text>
+
+        <path class="edge" d="M 685 325 C 720 325, 720 200, 760 200"/>
+        <text class="edge-label" x="724" y="250" text-anchor="middle">저장·조회</text>
+
+        <path class="edge" d="M 685 465 C 720 465, 720 610, 760 610"/>
+        <text class="edge-label" x="724" y="550" text-anchor="middle">출력 요청</text>
+
+        <path class="edge dependency" d="M 685 395 L 1150 395"/>
+        <text class="edge-label" x="920" y="381" text-anchor="middle">생성·전달</text>
+
+        <path class="edge" d="M 1070 200 C 1110 200, 1110 330, 1150 330"/>
+        <text class="edge-label" x="1115" y="252" text-anchor="middle">0..* 저장</text>
+
+        <path class="edge dependency" d="M 1070 610 C 1110 610, 1110 470, 1150 470"/>
+        <text class="edge-label" x="1117" y="550" text-anchor="middle">표시</text>
+
+        <path class="edge" d="M 1255 510 L 1255 650"/>
+        <text class="edge-label" x="1268" y="585">보유</text>
+
+        <path class="edge dependency" d="M 1070 260 C 1125 300, 1105 735, 1150 735"/>
+        <text class="edge-label" x="1118" y="675" text-anchor="middle">회원권 처리</text>
+
+        <path class="edge dependency" d="M 535 510 L 535 780 L 1150 780"/>
+        <text class="edge-label" x="820" y="766" text-anchor="middle">등록·변경 매개변수</text>
+
+        <path class="edge dependency" d="M 175 470 L 175 850 L 1255 850 L 1255 820"/>
+        <text class="edge-label" x="700" y="838" text-anchor="middle">메뉴에서 회원권 선택</text>
+    </g>
+
+    <a xlink:href="../src/solution/run/Application.java">
+        <g class="node application" role="group" aria-label="solution.run.Application">
+            <rect x="50" y="320" width="250" height="150" rx="14"/>
+            <text class="package-name" x="72" y="348">solution.run</text>
+            <text class="class-name" x="72" y="380">Application</text>
+            <line class="divider" x1="70" y1="396" x2="280" y2="396"/>
+            <text class="member-text" x="72" y="426">+ main(String[] args)</text>
+            <text class="member-text" x="72" y="450">메뉴 입력과 실행 시작점</text>
+        </g>
+    </a>
+
+    <a xlink:href="../src/solution/controller/MemberController.java">
+        <g class="node controller" role="group" aria-label="solution.controller.MemberController">
+            <rect x="385" y="280" width="300" height="230" rx="14"/>
+            <text class="package-name" x="407" y="308">solution.controller</text>
+            <text class="class-name" x="407" y="340">MemberController</text>
+            <line class="divider" x1="405" y1="356" x2="665" y2="356"/>
+            <text class="member-text" x="407" y="386">- GymDatabase gymDatabase</text>
+            <text class="member-text" x="407" y="412">- MemberView memberView</text>
+            <line class="divider" x1="405" y1="430" x2="665" y2="430"/>
+            <text class="member-text" x="407" y="458">요청 조정 및 결과 분기</text>
+            <text class="member-text" x="407" y="484">회원 생성과 날짜 계산</text>
+        </g>
+    </a>
+
+    <a xlink:href="../src/solution/repository/GymDatabase.java">
+        <g class="node repository" role="group" aria-label="solution.repository.GymDatabase">
+            <rect x="760" y="90" width="310" height="220" rx="14"/>
+            <text class="package-name" x="782" y="118">solution.repository</text>
+            <text class="class-name" x="782" y="150">GymDatabase</text>
+            <line class="divider" x1="780" y1="166" x2="1050" y2="166"/>
+            <text class="member-text" x="782" y="196">- List&lt;Member&gt; members</text>
+            <text class="member-text" x="782" y="222">- int nextMemberId</text>
+            <line class="divider" x1="780" y1="240" x2="1050" y2="240"/>
+            <text class="member-text" x="782" y="268">CRUD 및 Stream 검색</text>
+            <text class="member-text" x="782" y="292">만료일 계산과 상태 변경</text>
+        </g>
+    </a>
+
+    <a xlink:href="../src/solution/view/MemberView.java">
+        <g class="node view" role="group" aria-label="solution.view.MemberView">
+            <rect x="760" y="520" width="310" height="180" rx="14"/>
+            <text class="package-name" x="782" y="548">solution.view</text>
+            <text class="class-name" x="782" y="580">MemberView</text>
+            <line class="divider" x1="780" y1="596" x2="1050" y2="596"/>
+            <text class="member-text" x="782" y="626">+ displayMember(Member)</text>
+            <text class="member-text" x="782" y="652">+ displayMemberList(List)</text>
+            <text class="member-text" x="782" y="678">+ displayMessage(String)</text>
+        </g>
+    </a>
+
+    <a xlink:href="../src/solution/model/Member.java">
+        <g class="node model" role="group" aria-label="solution.model.Member">
+            <rect x="1150" y="290" width="210" height="220" rx="14"/>
+            <text class="package-name" x="1172" y="318">solution.model</text>
+            <text class="class-name" x="1172" y="350">Member</text>
+            <line class="divider" x1="1170" y1="366" x2="1340" y2="366"/>
+            <text class="member-text" x="1172" y="396">- memberId</text>
+            <text class="member-text" x="1172" y="422">- name / age / phone</text>
+            <text class="member-text" x="1172" y="448">- membershipType</text>
+            <text class="member-text" x="1172" y="474">- enrollDate / expiryDate</text>
+            <text class="member-text" x="1172" y="498">- active</text>
+        </g>
+    </a>
+
+    <a xlink:href="../src/solution/model/MembershipType.java">
+        <g class="node model" role="group" aria-label="solution.model.MembershipType 열거형">
+            <rect x="1150" y="650" width="210" height="170" rx="14"/>
+            <text class="package-name" x="1172" y="678">solution.model · enum</text>
+            <text class="class-name" x="1172" y="710">MembershipType</text>
+            <line class="divider" x1="1170" y1="726" x2="1340" y2="726"/>
+            <text class="member-text" x="1172" y="754">DAILY · 1일</text>
+            <text class="member-text" x="1172" y="780">MONTHLY · 30일</text>
+            <text class="member-text" x="1172" y="806">YEARLY · 365일</text>
+        </g>
+    </a>
+
+    <g aria-label="범례">
+        <line class="edge" x1="50" y1="875" x2="92" y2="875"/>
+        <text class="legend" x="104" y="880">실행·소유 관계</text>
+        <line class="edge dependency" x1="235" y1="875" x2="277" y2="875"/>
+        <text class="legend" x="289" y="880">타입·데이터 의존성</text>
+    </g>
+</svg>
