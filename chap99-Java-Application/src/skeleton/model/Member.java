@@ -70,7 +70,7 @@ public class Member {
         this.membershipType = membershipType;
     }
 
-    public LocalDateTime getEnrollDate() {
+    public boolean getEnrollDate() {
         return enrollDate;
     }
 

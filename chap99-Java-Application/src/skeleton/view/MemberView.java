@@ -14,6 +14,8 @@ public class MemberView {
      */
     public void displayMember(Member member) {
         // TODO: 회원 한 명을 출력하세요.
+        System.out.println(member);
+
     }
 
     /*
@@ -23,6 +25,9 @@ public class MemberView {
      */
     public void displayMemberList(List<Member> members) {
         // TODO: 회원 목록을 출력하세요.
+
+        //목록에서 하나씩 꺼내서 같은 일을 반복해
+        members.forEach(System.out::println);
     }
 
     /*
@@ -32,5 +37,6 @@ public class MemberView {
      */
     public void displayMessage(String message) {
         // TODO: 안내 메시지를 출력하세요.
+        System.out.println(message);
     }
 }
