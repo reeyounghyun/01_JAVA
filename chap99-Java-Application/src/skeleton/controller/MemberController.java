@@ -92,7 +92,7 @@ public class MemberController {
         if (memberid != null) {
             memberView.displayMember(memberid);
         } else {
-            memberView.displayMessage("해당 ID의 회원을 찾을 수 없습니다");
+            memberView.displayMessage("해당 ID의 회원을 찾을 수 없습니다.");
         }
     };
 
@@ -204,7 +204,7 @@ public class MemberController {
             gymDatabase.extendMembership(memberId);
             memberView.displayMessage("회원권이 연장되었습니다.");
         }else {
-            memberView.displayMessage("\"해당 ID의 회원을 찾을 수 없습니다.");
+            memberView.displayMessage(해당 ID의 회원을 찾을 수 없습니다.");
         }
     }
 
@@ -229,7 +229,7 @@ public class MemberController {
             gymDatabase.changeMembershipType(memberId, newType);
             memberView.displayMessage("회원권 종류가 변경되었습니다.");
         } else {
-            memberView.displayMessage("\"해당 ID의 회원을 찾을 수 없습니다.");
+            memberView.displayMessage(해당 ID의 회원을 찾을 수 없습니다.");
         }
     }
 
@@ -271,6 +271,7 @@ public class MemberController {
             // TODO: 회원 존재 여부에 따라 삭제 또는 실패 처리를 작성하세요.
             Member member = gymDatabase.getMember(memberId);
             if (member != null) {
+                gymDatabase.deleteMember(memberId);
                 memberView.displayMessage("회원이 삭제되었습니다.");
             } else {
                 memberView.displayMessage("해당 ID의 회원을 찾을 수 없습니다.");
