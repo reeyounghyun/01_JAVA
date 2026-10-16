@@ -204,7 +204,7 @@ public class MemberController {
             gymDatabase.extendMembership(memberId);
             memberView.displayMessage("회원권이 연장되었습니다.");
         }else {
-            memberView.displayMessage(해당 ID의 회원을 찾을 수 없습니다.");
+            memberView.displayMessage("해당 ID의 회원을 찾을 수 없습니다.");
         }
     }
 

@@ -59,7 +59,7 @@ public class GymDatabase {
         nextMemberId++;
         members.add(member);
 
-        System.out.println(members);  //확인용 [임시]
+        //System.out.println(members);  //확인용 [임시]
     }
 
     /*
@@ -126,7 +126,7 @@ public class GymDatabase {
 
         List<Member> nears = members
                 .stream()
-                .filter(member -> member.getExpiryDate().isBefore(now)) // “회원의 만료일이 현재보다 이전인가?”
+               // .filter(member -> member.getExpiryDate().isBefore(now)) // “회원의 만료일이 현재보다 이전인가?”
                 .filter(member -> member.getExpiryDate().isAfter(nearExpiry)) // “회원의 만료일이 7일 뒤보다 이후인가?”
                 .toList(); //  .stream()으로 처리하는 결과를 리스트로 모아서 반환하는 메서드
         return nears;
