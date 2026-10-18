@@ -7,7 +7,6 @@ import library.view.BookView;
 
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-import java.util.Optional;
 
 // 요청 흐름 조정
 public class BookController {
@@ -26,7 +25,7 @@ public class BookController {
      * 문제 CONTROLLER-1. 신규 도서 등록 요청 처리
      *
      * ID는 데이터베이스가 부여하므로 0으로 설정한 신규 Book을 만든다.
-     * (Book의 생성자 중 신규 도서용 생성자를 사용한다.)
+     * (Book의 생성자 중 매개변수가 4개인 신규 도서용 생성자를 사용한다.)
      * 데이터베이스의 addBook() 결과에 따라
      *   true  → "도서가 등록되었습니다."
      *   false → "이미 등록된 도서입니다."
@@ -48,9 +47,8 @@ public class BookController {
     /*
      * 문제 CONTROLLER-3. 도서 ID 조회 요청 처리
      *
-     * findBook()이 돌려준 Optional에 ifPresentOrElse()를 사용한다. (if문 사용 금지)
-     *   있으면 → 도서 정보 출력 (메소드 참조 사용)
-     *   없으면 → NOT_FOUND 메시지 출력 (람다 사용)
+     * 도서가 있으면 도서 정보를 출력한다.
+     * 없으면 NOT_FOUND 메시지를 출력한다.
      */
     public void findBook(int bookId) {
         // TODO
@@ -59,9 +57,8 @@ public class BookController {
     /*
      * 문제 CONTROLLER-4. 키워드 검색 요청 처리
      *
-     * 검색 결과가 비어 있으면 "검색 결과가 없습니다."를 출력한다.
-     * 비어 있지 않으면 목록을 출력한다.
-     * 이번에는 size() 대신 isEmpty()를 사용한다.
+     * 검색 결과가 없으면 "검색 결과가 없습니다."를 출력한다.
+     * 있으면 목록을 출력한다.
      */
     public void searchBooks(String keyword) {
         // TODO
@@ -91,7 +88,7 @@ public class BookController {
     /*
      * 문제 CONTROLLER-7. 대출 요청 처리 (실패 이유를 구분해서 안내)
      *
-     * 1. findBook()으로 도서를 먼저 꺼내 둔다.
+     * 1. findBook()으로 도서를 먼저 꺼내 변수에 담아 둔다.
      * 2. 도서가 없으면 NOT_FOUND를 출력한다.
      * 3. 이미 대출 중이면 "이미 대출 중인 도서입니다."를 출력한다.
      * 4. 대출 가능하면 데이터베이스의 loanBook()을 호출한 뒤

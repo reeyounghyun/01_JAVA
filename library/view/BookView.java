@@ -43,10 +43,8 @@ public class BookView {
      * overdueDays가 0이면 "정상 반납되었습니다."를 출력한다.
      * 1 이상이면 연체료(overdueDays * LATE_FEE_PER_DAY)를 계산해 아래 형식으로 출력한다.
      *   반납되었습니다. 연체 6일 / 연체료 600원
-     *
-     * 도전: 연체료가 1,000원 이상일 때 쉼표가 찍히도록 String.format()의 %,d를 써 보자.
      */
-    public void displayReturnResult(long overdueDays) {
+    public void displayReturnResult(int overdueDays) {
         // TODO
     }
 }
