@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0ab07b6-5876-4972-ae72-4274395fbb33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../chap16-stream/src/lecture/exercise/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-stream/src/lecture/exercise/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-stream/src/lecture/section03/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-stream/src/lecture/section03/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap16-stream/src/lecture/section01/Application0.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap16-stream/src/lecture/section01/Application0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap16-stream/src/lecture/section02/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap16-stream/src/lecture/section02/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap16-stream/src/lecture/section02/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap16-stream/src/lecture/section02/Application3.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "reeyounghyun"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/reeyounghyun/01_JAVA.git",
+    "accountId": "9705f854-5e9c-4745-a33c-6a324ad3d612"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="3KaMjK3IPymjwP4O2GWpDDRLbL9" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/이영현/01_java/chap09-API"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0ab07b6-5876-4972-ae72-4274395fbb33" name="Changes" comment="" />
+      <created>1791791359780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791791359780</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd8b226c-ab3a-4959-b07f-45bde5ddd78b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/skeleton/repository/GymDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/skeleton/repository/GymDatabase.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="15" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;reeyounghyun&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/reeyounghyun/01_JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;9705f854-5e9c-4745-a33c-6a324ad3d612&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.276357656672516" />
+      <entry key="MS500" value="3.3034235220911943" />
+      <entry key="S2" value="5.045931675437972" />
+      <entry key="S5" value="5.619344866928838" />
+      <entry key="S10" value="6.067716440195842" />
+      <entry key="S30" value="7.921217423160006" />
+      <entry key="S60" value="10.638425776721453" />
+      <entry key="M2" value="14.03195113145427" />
+      <entry key="M5" value="19.58019165090176" />
+      <entry key="M10" value="32.07953829283393" />
+      <entry key="M15" value="45.73318727647048" />
+      <entry key="M30" value="74.81096803966432" />
+      <entry key="H1" value="100.74350041730922" />
+      <entry key="H2" value="118.31718461831912" />
+      <entry key="H4" value="128.58577099228057" />
+      <entry key="D1" value="138.01245719732444" />
+      <entry key="W1" value="139.7139019303349" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.4821714898173441E-4" />
+      <entry key="MS500" value="0.17335213422474952" />
+      <entry key="S2" value="0.980119015440132" />
+      <entry key="S5" value="1.8168900013697817" />
+      <entry key="S10" value="2.3673755999786112" />
+      <entry key="S30" value="3.560125419762577" />
+      <entry key="S60" value="4.870278598880338" />
+      <entry key="M2" value="6.308087437078921" />
+      <entry key="M5" value="8.03365520360375" />
+      <entry key="M10" value="10.91522155318816" />
+      <entry key="M15" value="13.993279851253515" />
+      <entry key="M30" value="20.516028806379804" />
+      <entry key="H1" value="26.29955166800673" />
+      <entry key="H2" value="30.20204371170722" />
+      <entry key="H4" value="32.47651294054009" />
+      <entry key="D1" value="34.560936783123076" />
+      <entry key="W1" value="34.93680765656105" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.1006700421626796" />
+      <entry key="MS500" value="3.2602418940025104" />
+      <entry key="S2" value="5.6248794178690185" />
+      <entry key="S5" value="7.048722507245357" />
+      <entry key="S10" value="8.126892449824915" />
+      <entry key="S30" value="11.255863456850445" />
+      <entry key="S60" value="15.319981708872167" />
+      <entry key="M2" value="20.203415052847937" />
+      <entry key="M5" value="27.539984173447444" />
+      <entry key="M10" value="42.94432292398187" />
+      <entry key="M15" value="59.68254493808546" />
+      <entry key="M30" value="95.29279218244707" />
+      <entry key="H1" value="127.01992289591348" />
+      <entry key="H2" value="148.5055008739149" />
+      <entry key="H4" value="161.05476861890892" />
+      <entry key="D1" value="172.57203977064765" />
+      <entry key="W1" value="174.65051347976308" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3KcrAhVO6BdvAs3qRgnMgfxhUAo" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/이영현/01_java/chap99-Java-Application",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.LLMThirdPartyAiProvidersConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="skeleton.run.Application" />
+      <module name="chap99-Java-Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="skeleton.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd8b226c-ab3a-4959-b07f-45bde5ddd78b" name="Changes" comment="" />
+      <created>1791867558895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791867558895</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/skeleton/model/Member.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
