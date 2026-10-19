@@ -132,7 +132,8 @@ public class GymDatabase {
 
         .filter(member -> member.isActive())
                 .filter(member -> !member.getExpiryDate().isBefore(now))
-                .filter(member -> !member.getExpiryDate().isAfter(nearExpiry));
+                .filter(member -> !member.getExpiryDate().isAfter(nearExpiry))
+                .toList();
         return nears;
     }
 

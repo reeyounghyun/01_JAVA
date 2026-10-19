@@ -1,7 +1,6 @@
 package skeleton.view;
 
 import skeleton.model.Member;
-
 import java.util.List;
 
 // 결과 출력
